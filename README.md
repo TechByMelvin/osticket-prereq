@@ -42,10 +42,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Set up a Virtual Machine in Azure
 Provision a Windows 10 or Windows Server VM on Microsoft Azure.
 Ensure that the VM has at least 2 vCPUs, 4 GB of RAM, and sufficient disk space.
-
+</p>
 <br />
 
-<p>
 
 <p>
 Install IIS (Internet Information Services)
