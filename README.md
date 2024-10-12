@@ -47,40 +47,44 @@ Ensure that the VM has at least 2 vCPUs, 4 GB of RAM, and sufficient disk space.
 
 
 <p>
+<img src="https://i.imgur.com/hn2GzqE.jpg" />
+</p>
+<p>
 Install IIS (Internet Information Services)
 Open Server Manager on Windows, go to Add Roles and Features.
 Select Web Server (IIS) and enable necessary features like CGI.
 </p>
 <br />
 
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install PHP
-Download the latest stable version of PHP (7.4 or higher) for Windows.
-Configure PHP with IIS using FastCGI.
+Configure IIS:
+Register PHP (C:\PHP\php-cgi.exe in IIS).
+Restart IIS and enable PHP extensions (php_imap.dll, php_intl.dll, php_opcache.dll).
 </p>
 <br />
 
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Set up MySQL Database
-
-Install MySQL on the same or a separate server.
-Create a new database and a user for osTicket.
-
+Install osTicket:
+Unzip osTicket files to c:\inetpub\wwwroot\osTicket.
+Rename ost-sampleconfig.php to ost-config.php and set permissions.
 </p>
 <br />
 
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install PHP
-Download the latest stable version of PHP (7.4 or higher) for Windows.
-Configure PHP with IIS using FastCGI.
+Database & Final Setup:
+Create osTicket database with HeidiSQL.
+Complete the installation via browser using MySQL credentials (root/root).
 </p>
 <br />
