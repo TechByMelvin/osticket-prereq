@@ -35,11 +35,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img width="1440" alt="Screenshot 2024-10-12 at 3 05 57 PM" src="https://github.com/user-attachments/assets/32afab57-ad76-410f-b68f-059d13062bf0">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Set up a Virtual Machine in Azure
+Provision a Windows 10 or Windows Server VM on Microsoft Azure.
+Ensure that the VM has at least 2 vCPUs, 4 GB of RAM, and sufficient disk space.
+
+<br />
+
+<p>
+
+<p>
+Install IIS (Internet Information Services)
+Open Server Manager on Windows, go to Add Roles and Features.
+Select Web Server (IIS) and enable necessary features like CGI.
 </p>
 <br />
 
@@ -47,7 +58,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install PHP
+Download the latest stable version of PHP (7.4 or higher) for Windows.
+Configure PHP with IIS using FastCGI.
 </p>
 <br />
 
@@ -55,6 +68,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Set up MySQL Database
+
+Install MySQL on the same or a separate server.
+Create a new database and a user for osTicket.
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install PHP
+Download the latest stable version of PHP (7.4 or higher) for Windows.
+Configure PHP with IIS using FastCGI.
 </p>
 <br />
