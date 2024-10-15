@@ -109,9 +109,9 @@ Point to C:\PHP\php-cgi.exe.
 Install MySQL and Configure Database:
   
 -From the osTicket-Installation-Files, install MySQL 5.5.62 (mysql-5.5.62-win32.msi) with these settings:
- Typical Setup.
- Username: root.
- Password: root.
+   Typical Setup.
+   Username: root.
+   Password: root.
 
 -After installation, launch the MySQL configuration wizard and complete the setup.
 
@@ -144,11 +144,11 @@ Enable Required PHP Extensions:
 
 -Enable the following extensions:
 
- php_imap.dll
+   php_imap.dll
 
- php_intl.dll
+   php_intl.dll
 
- php_opcache.dll
+   php_opcache.dll
 
 -Restart IIS and refresh the osTicket page in the browser.
 
@@ -166,17 +166,17 @@ Configure osTicket:
 
 -Set the correct file permissions:
 
- Right-click ost-config.php > Properties > Security.
+   Right-click ost-config.php > Properties > Security.
 
- Disable inheritance and remove all permissions.
+   Disable inheritance and remove all permissions.
 
- Assign Full Control to Everyone.
+   Assign Full Control to Everyone.
 
 -In your browser, continue the osTicket installation wizard:
 
- Helpdesk Name: Your preferred name (e.g., "IT Support Desk").
+   Helpdesk Name: Your preferred name (e.g., "IT Support Desk").
 
- Default Email: An email address for receiving customer tickets.
+   Default Email: An email address for receiving customer tickets.
 
 </p>
 <br />
@@ -196,11 +196,11 @@ Set Up the MySQL Database for osTicket:
 
 -In the osTicket setup wizard, provide the following database details:
 
- MySQL Database: osTicket
+   MySQL Database: osTicket
 
- MySQL Username: root
+   MySQL Username: root
 
- MySQL Password: root
+   MySQL Password: root
 
 -Click Install Now to complete the osTicket installation.
 
@@ -220,9 +220,9 @@ Final Steps and Cleanup:
 
 -Verify that osTicket is accessible via the following URLs:
 
- Admin Panel: http://localhost/osTicket/scp/login.php
+   Admin Panel: http://localhost/osTicket/scp/login.php
 
- End-User Portal: http://localhost/osTicket/
+   End-User Portal: http://localhost/osTicket/
 
 </p>
 <br />
