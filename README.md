@@ -135,7 +135,7 @@ Install osTicket:
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/hX8fdD4.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Enable Required PHP Extensions:
@@ -157,9 +157,8 @@ Enable Required PHP Extensions:
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/55TzKqm.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
 Configure osTicket:
   
 -Rename the file C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to ost-config.php.
@@ -183,7 +182,7 @@ Configure osTicket:
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/RhmcHy0.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Set Up the MySQL Database for osTicket:
@@ -209,7 +208,7 @@ Set Up the MySQL Database for osTicket:
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/FzXBt2L.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Final Steps and Cleanup:
