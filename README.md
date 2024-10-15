@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 </p>
-<img width="1440" alt="Screenshot 2024-10-12 at 3 05 57 PM" src="https://github.com/user-attachments/assets/32afab57-ad76-410f-b68f-059d13062bf0">
+<img src="https://imgur.com/HeaeMzX.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Set Up the Azure Virtual Machine
@@ -50,7 +50,7 @@ Provision a new Windows 10 VM on Azure with the following configuration:
 
 
 <p>
-<img src="https://i.imgur.com/hn2GzqE.jpg" />
+<img src="https://imgur.com/wsMfxHw.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Access the VM via Remote Desktop.
@@ -64,7 +64,7 @@ Access the VM via Remote Desktop.
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/EdmY5zD.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Install and Configure IIS (Web Server).
@@ -80,7 +80,7 @@ Access the VM via Remote Desktop.
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/lLqxgrW.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install PHP for IIS:
@@ -103,7 +103,7 @@ Point to C:\PHP\php-cgi.exe.
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/ySdKXfc.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install MySQL and Configure Database:
@@ -120,7 +120,7 @@ Install MySQL and Configure Database:
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/JkJaLCp.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install osTicket:
